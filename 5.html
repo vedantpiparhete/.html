@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Nikola Tesla</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        /* Layout Containers */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-top: 8px solid #2c3e50;
+        }
+
+        /* Text Styling */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        /* Image & Borders */
+        .img-area {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #fff;
+            outline: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        /* Content Sections */
+        .content-section {
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#legacy">Legacy</a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Nikola Tesla</h1>
+            <p class="subtitle">The Man Who Invented the Twentieth Century</p>
+        </header>
+
+        <div id="about" class="img-area">
+            <!-- Placeholder Image -->
+            <img src="https://wikimedia.org" alt="Portrait of Nikola Tesla">
+            <p><em>"The present is theirs; the future, for which I really worked, is mine."</em></p>
+        </div>
+
+        <section id="achievements" class="content-section">
+            <h2>Key Contributions</h2>
+            <ul>
+                <li><strong>Alternating Current (AC):</strong> Developed the modern AC electricity supply system.</li>
+                <li><strong>Tesla Coil:</strong> Invented in 1891, used in radio technology and medical devices.</li>
+                <li><strong>Induction Motor:</strong> Revolutionized industrial manufacturing.</li>
+                <li><strong>Wireless Telegraphy:</strong> Early pioneer of radio waves and remote control.</li>
+            </ul>
+        </section>
+
+        <section id="legacy" class="content-section">
+            <h2>His Legacy</h2>
+            <p>
+                Tesla was a visionary whose ideas were often far ahead of his time. Today, his name 
+                is synonymous with innovation, and his work continues to influence modern power 
+                distribution and wireless communication.
+            </p>
+        </section>
+
+        <footer>
+            <p>Created as a tribute to one of history's greatest minds.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
